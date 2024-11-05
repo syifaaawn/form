@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Form Data Barang</title>
+</head>
+<body>
+
+    <h4 align ="center">Data Barang </h4> 
+    <hr>  
+    <br><br>
+    <form >
+        <table align="center">
+            <tr>
+                <td><label for="kodeBarang">Kode Barang:</label></td>
+                <td><input type="text" id="kodeBarang" name="kodeBarang" required></td>
+            </tr>
+            <tr>
+                <td><label for="KategoriBarang">Kategori Barang :</label></td>
+                <td><select name="KategoriBarang">
+                    <option value="Mk">Televisi</option>
+                    <option value="DS">Mesin Cuci</option>
+                    <option value="UX">Kulkas </option>
+                    <option value="SD">Air conditioner (AC)</option>
+                </tr>
+            <tr>
+                <td><label for="namaBarang">Nama Barang:</label></td>
+                <td><input type="text" id="namaBarang" name="namaBarang" required></td>
+            </tr>
+            <tr>
+                <td><label for="jumlahBarang">Jumlah:</label></td>
+                <td><input type="number" id="jumlahBarang" name="jumlahBarang" required></td>
+            </tr>
+            <tr>
+                <td><label for="hargaBarang">Harga:</label></td>
+                <td><input type="number" id="hargaBarang" name="hargaBarang" required></td>
+            </tr>
+            <tr>
+                <td><label for="tanggalMasuk">Tanggal Masuk:</label></td>
+                <td><input type="date" id="tanggalMasuk" name="tanggalMasuk" required></td>
+            </tr>
+            <tr>
+                <td><label for="deskripsi">Deskripsi Barang:</label></td>
+                <td><textarea id="deskripsi" name="deskripsi" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="5" align="center">
+                    <br>
+                    <button type="submit" onclick="location.href='datapembelian.html'">Data Pembelian</button>
+                    <button type="reset" value="ulangi" name="reset">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+        </body>
+</html>

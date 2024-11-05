@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Form suplier</title>
+</head>
+<body>
+
+    <h4 align ="center">Data suplier </h4> 
+    <hr>  
+    <br><br>
+    <form >
+        <table align="center">
+            <tr>
+                <td><label for="NamaCustomer">Nama Customer : </label></td>
+                <td><input type="text" id="NamaCustomer" name="NamaCustomer" required></td>
+            </tr>
+            <tr>
+                <td><label for="KodeCustomer">Kode Customer :</label></td>
+                <td><input type="text" id="KodeCustomer" name="KodeCustomer" required></td>
+            </tr>
+            <tr>
+                <td><label for="NomorTelepon">Nomor Telepon :</label></td>
+                <td><input type="number" id="NomorTelepon" name="NomorTelepon" required></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email : </label></td>
+                <td><input type="Text" id="Email" name="Email" required></td>
+            </tr>
+            <tr>
+                <td><label for="KategoriBarang">Kategori Barang :</label></td>
+                <td><select name="KategoriBarang">
+                    <option value="Mk">Televisi</option>
+                    <option value="DS">Mesin Cuci</option>
+                    <option value="UX">Kulkas </option>
+                    <option value="SD">Air conditioner (AC)</option>
+                </tr>
+                    </select>
+                    
+            </tr>
+            <tr>
+                <td><label for="JenisKelamin">Jenis Kelamin : </label></td>
+                <td><input type="radio" id="JenisKelamin" name="JenisKelamin" required>Laki-laki</td>
+                <td><input type="radio" id="JenisKelamin" name="JenisKelamin" required>Perempuan</td>
+            </tr>
+            <tr>
+                <td><label for="alamat">Alamat :</label></td>
+                <td><textarea id="alamat" name="alamat" rows="5"></textarea></td>
+            </tr>
+                <tr>
+                    <td colspan="5" align="center">
+                        <br>
+                        <button type="submit" onclick="location.href='databarang.html'">Data Costumer</button>
+                        <button type="reset" value="ulangi" name="reset">Reset</button>
+                    </td>
+                </tr>
+        </table>
+    </form>
+    
+        </body>
+</html>
